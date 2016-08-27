@@ -13,7 +13,6 @@ public class Game {
 	}
 
 	public Game(int answer) {
-
 		mAnswer = answer;
 		mTreatName = "";
 		mMaxTreat = 100; // initialise to 100 until jar fill method is called.
@@ -23,6 +22,7 @@ public class Game {
 	public int getAnswer() {
 
 		return mAnswer;
+		
 
 	}
 
